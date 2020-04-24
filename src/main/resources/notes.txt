@@ -1,0 +1,105 @@
+Understanding JAVA 
+
+ecllipse -  tool (netbeans , intellij)
+java -   language 
+
+selenium - framework - java , python  
+
+JAVA 
+
+	1. Variables 
+	2. Conditions
+	3. Loop
+	4. Class
+	5. Object 
+	6. package 
+	
+	
+1. variables 
+	data type is always required
+	
+	java - 
+		int  - 5, 
+		double  - 5.5 
+		boolean - true , false 
+		
+		
+		String - is not a data type 
+	
+
+Assignment 
+1. Create a var of each type in, double and boolean 
+2. Print each of them in console too. 
+
+2. Conditions 
+if(condition pass){
+ then do this 
+}
+else 
+{
+ do this 
+}
+
+-------------
+
+if (){
+
+}
+
+else if {
+
+}
+
+else {
+
+} 
+
+Asisgnment 
+1. Write a code to take input from user and print if 
+it is greater than 10 or not in the screen 
+2. write a code to take input of brand name and 
+print follwoing 
+v good if brand = apple 
+good if brand = samsung 
+bad if brand = nokia 
+
+3. write code for following scenario 
+if (website title is Apple ){
+	print title is apple 
+}
+
+else if (website title is ball){
+	print title is Ball
+}
+
+else {
+	print title is actualTitle 
+	
+}
+
+--------------------Loop----------------------
+
+1. write a for loop to iterate and print all even nos from 0 to 20  
+2. write a for loop to iterate from 0 to 20 and print whether the no is 
+1. gretaer than 5 / between 5 and 10 
+/ between 10 and 15 or between 15 and 20 
+
+
+
+
+Class --------
+create class Studenet with fname , lastname , email 
+create class employee with title and salary 
+create objects of Student and employee 
+create class of Company with departmetns and vp 
+
+
+
+
+
+
+
+
+
+
+

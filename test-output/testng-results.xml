@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14339" started-at="2020-04-24T14:33:27Z" finished-at="2020-04-24T14:33:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14339" started-at="2020-04-24T14:33:27Z" finished-at="2020-04-24T14:33:42Z">
+      <class name="com.testng.datadriven.DataDrivenLogin">
+        <test-method status="PASS" signature="launchApp()" name="launchApp" is-config="true" duration-ms="3130" started-at="2020-04-24T14:33:24Z" finished-at="2020-04-24T14:33:27Z">
+        </test-method>
+        <test-method status="PASS" signature="datadriven(java.lang.String, java.lang.String)" name="datadriven" duration-ms="8156" started-at="2020-04-24T14:33:27Z" finished-at="2020-04-24T14:33:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="datadriven(java.lang.String, java.lang.String)" name="datadriven" duration-ms="5994" started-at="2020-04-24T14:33:36Z" finished-at="2020-04-24T14:33:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="closeBrowser()" name="closeBrowser" is-config="true" duration-ms="1738" started-at="2020-04-24T14:33:42Z" finished-at="2020-04-24T14:33:43Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

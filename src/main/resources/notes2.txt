@@ -1,0 +1,34 @@
+1. Class Object Method 
+
+
+
+
+Assignment 
+
+Create a method to take screenshot of webpage ? 
+
+------------------
+
+Class 
+
+String s="gopal";
+		int age = 28; 
+		String country = "Nepal"; 
+		
+		// employee - gopal
+		int hours = 40;
+		String department = "IT"; 
+		double salaary = 400.65; 
+		String fname = "Gopal";
+		String lname = "lname"; 
+		
+		// savayta record emplyess data 
+		int hr = 50; 
+		String dept = "IT"; 
+		double sal = 400.65;
+		String name = "Gopal Khanal" ;
+		
+		// we will create type called Employee and govern the 
+		// rules 
+		
+		
