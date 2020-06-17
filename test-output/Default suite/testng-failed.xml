@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)" preserve-order="false">
     <classes>
-      <class name="com.testng.datadriven.DataDrivenLogin">
+      <class name="com.testng.A2WebsiteOpen">
         <methods>
-          <include name="launchApp"/>
-          <include name="datadriven"/>
-          <include name="closeBrowser"/>
+          <include name="dropDown"/>
+          <include name="formFill"/>
+          <include name="beforeTest"/>
         </methods>
       </class>
     </classes>

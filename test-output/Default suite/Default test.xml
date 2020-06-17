@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="Gopals-MacBook-Pro.local" name="com.testng.datadriven.DataDrivenLogin" tests="2" failures="0" timestamp="24 Apr 2020 20:33:42 GMT" time="14.339" errors="0">
-  <testcase name="datadriven" time="8.156" classname="com.testng.datadriven.DataDrivenLogin"/>
-  <testcase name="datadriven" time="5.994" classname="com.testng.datadriven.DataDrivenLogin"/>
+<testsuite hostname="Gopals-MacBook-Pro.local" name="com.testng.A2WebsiteOpen" tests="2" failures="0" timestamp="16 Jun 2020 23:41:57 GMT" time="23.848" errors="0">
+  <testcase name="dropDown" time="6.138" classname="com.testng.A2WebsiteOpen"/>
+  <testcase name="formFill" time="5.746" classname="com.testng.A2WebsiteOpen"/>
 </testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite1" verbose="1">
+	<test name="test1">
+		<classes>
+			<class name="com.testng.A2WebsiteOpen" />
+			<methods>
+				<include name="formFill" />
+			</methods>
+			<class name="com.testng.A1NewTest" />
+		</classes>
+	</test>
+</suite>

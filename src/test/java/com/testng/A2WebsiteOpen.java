@@ -11,6 +11,8 @@ import org.testng.annotations.Test;
 public class A2WebsiteOpen {
 
 	WebDriver driver;
+	
+	
 
 	@BeforeMethod
 	public void beforeTest() {

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite-parameters" verbose="1" >
+  <test name="test-parameters" >
+  <parameter name="email" value="email12" />
+  <parameter name="password" value="password12" />
+    <classes>
+      <class name="com.testng.ParameterBased"/>
+    </classes>
+ </test>
+</suite>

@@ -20,10 +20,12 @@ public class ReadExcel {
 		int rowcount = s.getLastRowNum();
 		int cellcount = s.getRow(0).getLastCellNum();
 		String data[][] = new String[rowcount][cellcount];
+		System.out.println("row count is " + rowcount);
 		for (int i = 1; i <= rowcount; i++) {
 			Row r = s.getRow(i);
 			for (int j = 0; j < cellcount; j++) {
 				Cell c = r.getCell(j);
+				System.out.println("cell value is " +c.getStringCellValue());
 				try {
 					if (c.getCellType() == CellType.STRING) {
 						data[i - 1][j] = c.getStringCellValue();
