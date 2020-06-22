@@ -6,7 +6,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+import junit.framework.Assert;
 
 public class A2WebsiteOpen {
 
@@ -29,7 +32,7 @@ public class A2WebsiteOpen {
 		driver.get(baseUrl);
 	}
 
-	@Test
+	@Test(groups="sprint3-regression", priority=2, dependsOnMethods="login")
 	public void dropDown() throws InterruptedException {
 
 		System.out.println("I am website title test");
@@ -48,19 +51,21 @@ public class A2WebsiteOpen {
 
 	}
 
-	@Test
-	public void formFill() throws InterruptedException {
+	@Test(priority=1)
+	@Parameters({"username", "password"})
+	public void login(String username, String password) throws InterruptedException {
 
 		System.out.println("I am formfill test");
 
 		driver.findElement(By.xpath("//a[@href='/login']")).click();
 		Thread.sleep(3000);
 
-		driver.findElement(By.name("username")).sendKeys("usergopal");
-		driver.findElement(By.name("password")).sendKeys("passwordgopal");
-
+		driver.findElement(By.name("username")).sendKeys(username);
+		driver.findElement(By.name("password")).sendKeys(password);
+		Thread.sleep(5000);
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		Thread.sleep(2000);
+		Assert.assertEquals("gopal", "khanal");
 
 	}
 

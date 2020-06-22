@@ -1,0 +1,40 @@
+TestNG 
+
+main method - 4(4 class ) - individually run 
+
+@BeforeMethod  -setdriverpath 
+@Test1, @Test2, @Test3, @Test4
+@AfterMethod - close browser 
+total method run - 12
+
+@BeforeTest setdriverpath 
+@Test1, @Test2, @Test3, @Test4
+@AfterTest - close browser 
+total metho drun - 6
+
+
+
+
+setdriverpath -> 
+openurl google 
+close browser  - > 
+
+test1 test2 
+
+
+@BeforeClass 
+@AfterClass
+
+@BeforeSuite 
+
+Object 
+
+Throwable 
+
+Exception
+RuntimeException CompileTimeException 
+NoFileFound 
+NUllPointedr 
+ 
+
+

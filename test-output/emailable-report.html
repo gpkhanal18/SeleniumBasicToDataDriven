@@ -29,20 +29,51 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">test1</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi">0</td><td class="numi">25.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">testqa</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">12.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <a id="summary"></a>
 <table cellspacing=0 cellpadding=0 class="passed">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
-<tr><th colspan="4">test1 &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">com.testng.A1NewTest<td><a href="#m1"><b>firstTestNGTest</b>  </a></td><td class="numi">1</td><td class="numi">11</td></tr>
-<tr class="passedeven"><td rowspan="2">com.testng.A2WebsiteOpen<td><a href="#m2"><b>dropDown</b>  </a></td><td class="numi">1</td><td class="numi">5812</td></tr><tr class="passedeven"><td><a href="#m3"><b>formFill</b>  </a></td><td class="numi">1</td><td class="numi">5875</td></tr>
+<tr><th colspan="4">testqa &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.testng.A2WebsiteOpen<td><a href="#m1"><b>formFill</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">testqa &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.testng.A2WebsiteOpen<td><a href="#m2"><b>dropDown</b> (sprint3-regression) </a></td><td class="numi">1</td><td class="numi">5977</td></tr>
+<tr class="passedeven"><td rowspan="1">com.testng.A1NewTest<td><a href="#m3"><b>websiteTitleTest</b> (sprint3-regression) </a></td><td class="numi">1</td><td class="numi">12</td></tr>
 </table>
-<h1>test1</h1>
-<a id="m1"></a><h2>com.testng.A1NewTest:firstTestNGTest</h2>
+<h1>testqa</h1>
+<a id="m1"></a><h2>com.testng.A2WebsiteOpen:formFill</h2>
+<div style="padding-left:3em">
+<p>
+Parameter &apos;username&apos; is required by @Test on method formFill
+but has not been marked @Optional or defined in /Users/gopalkhanal/Desktop/QA/AutomationGopal/src/main/resources/testng.xml</p>
+org.testng.internal.Parameters.createParameters(Parameters.java:144)
+<br/>at org.testng.internal.Parameters.createParameters(Parameters.java:323)
+<br/>at org.testng.internal.Parameters.handleParameters(Parameters.java:414)
+<br/>at org.testng.internal.Invoker.handleParameters(Invoker.java:1315)
+<br/>at org.testng.internal.Invoker.createParameters(Invoker.java:1022)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1122)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:1147)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:749)
+<br/>at org.testng.TestRunner.run(TestRunner.java:600)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:317)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:312)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:274)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:223)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br/>at org.testng.TestNG.runSuitesSequentially(TestNG.java:1039)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:964)
+<br/>at org.testng.TestNG.run(TestNG.java:900)
+<br/>at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+<br/>at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+<br/>at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+<br/>1 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <a id="m2"></a><h2>com.testng.A2WebsiteOpen:dropDown</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m3"></a><h2>com.testng.A2WebsiteOpen:formFill</h2>
+<a id="m3"></a><h2>com.testng.A1NewTest:websiteTitleTest</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

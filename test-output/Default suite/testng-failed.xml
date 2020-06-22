@@ -3,11 +3,9 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)" preserve-order="false">
     <classes>
-      <class name="com.testng.A2WebsiteOpen">
+      <class name="com.testng.NegativeScenario">
         <methods>
-          <include name="dropDown"/>
-          <include name="formFill"/>
-          <include name="beforeTest"/>
+          <include name="testNegativeScenatio_should_fail"/>
         </methods>
       </class>
     </classes>

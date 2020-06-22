@@ -2,14 +2,16 @@ package com.testng;
 
 import org.testng.annotations.Test;
 
+import junit.framework.Assert;
+
 public class A1NewTest {
 	
 	
-  @Test
-  public void firstTestNGTest() {
+	
+	
+  @Test(groups="lksjdf")
+  public void websiteTitleTest() {
 	  
-	  System.out.println("test pass");
   }
-  
   
 }

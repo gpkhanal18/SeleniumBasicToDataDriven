@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="Gopals-MacBook-Pro.local" name="com.testng.A2WebsiteOpen" tests="2" failures="0" timestamp="16 Jun 2020 23:41:57 GMT" time="23.848" errors="0">
-  <testcase name="dropDown" time="6.138" classname="com.testng.A2WebsiteOpen"/>
-  <testcase name="formFill" time="5.746" classname="com.testng.A2WebsiteOpen"/>
+<testsuite hostname="Gopals-MacBook-Pro.local" name="com.testng.A2WebsiteOpen" tests="2" failures="0" timestamp="22 Jun 2020 01:59:34 GMT" time="0.023" errors="0">
+  <testcase name="login" time="0.005" classname="com.testng.A2WebsiteOpen">
+    <skipped/>
+  </testcase>
+  <testcase name="dropDown" time="0.001" classname="com.testng.A2WebsiteOpen">
+    <skipped/>
+  </testcase>
 </testsuite>

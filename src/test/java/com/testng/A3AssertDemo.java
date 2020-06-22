@@ -37,7 +37,13 @@ public class A3AssertDemo {
 		actualTitle = driver.getTitle();
 
 		Assert.assertEquals(actualTitle, expectedTitle);
+		
 
+	}
+	
+	@Test
+	public void sampleTest() {
+		
 	}
 	
 	@AfterTest
