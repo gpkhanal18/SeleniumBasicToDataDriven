@@ -20,6 +20,8 @@ public class A2WebsiteScreenshot {
 		// added as part of feature1.
 		// /Users/gopalkhanal/Downloads/Driver
 		// feature 1 more added
+		// feature 1 more added
+		// added from feature 2
 		String baseUrl = "www.google.com";
 
 		// launch Fire fox and direct it to the Base URL
