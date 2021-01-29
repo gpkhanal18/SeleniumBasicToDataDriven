@@ -17,9 +17,9 @@ public class A2WebsiteScreenshot {
 		// comment the above 2 lines and uncomment below 2 lines to use Chrome
 		// System.setProperty("webdriver.chrome.driver","G:\\chromedriver.exe");
 		WebDriver driver = new FirefoxDriver();
-
+		// added as part of feature1.
 		// /Users/gopalkhanal/Downloads/Driver
-
+		// feature 1 more added 
 		String baseUrl = "www.google.com";
 
 		// launch Fire fox and direct it to the Base URL

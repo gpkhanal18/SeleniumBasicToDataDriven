@@ -26,6 +26,8 @@ public class A1WebsiteTitle {
         driver.findElement(By.name("q")).sendKeys("i am typing");
         Thread.sleep(5000);
 
+        added as part of feature 1
+
         // get the actual value of the title
         actualTitle = driver.getTitle();
         
